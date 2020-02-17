@@ -7,7 +7,7 @@ public class AirSeaBattle extends PApplet
 	public void settings()
 	{
 		size(500, 500);
-	}
+	}           
 
 	public void setup() {
 		reset();
