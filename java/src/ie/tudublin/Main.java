@@ -1,7 +1,14 @@
+
 package ie.tudublin;
 
 public class Main
 {
+
+    public void helloArrays()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new ArraysExample());
+    }
 
     public void helloProcessing()
 	{
@@ -33,7 +40,7 @@ public class Main
         // The type is a superclass, the instance is a subclass
 
         // This is not polymorphism
-        Cat topcat = new Cat("Topcat");
+        //Cat topcat = new Cat("Topcat");
 
         // This is polymorphism!
         Animal mino = new Cat("Mino");
@@ -69,6 +76,9 @@ public class Main
     public static void main(String[] arg)
     {
         Main main = new Main();
-		main.loops();        
+		main.helloArrays();        
     }
 }
+
+   
+
